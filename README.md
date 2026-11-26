@@ -1,6 +1,20 @@
-Ramon Vinicius Knoll
+# Sistema de Almoxarifado - Controle de Estoque
 
-Turma de Desenvolvimento de Sistemas - SENAI Otacílio Costa
-Período noturno
+**Aluno:** [João Vitor Souza de Moraes]  
+**Turma:** [Técnico em Desenvolvimento de Sistemas / Programação de Aplicativos]
 
-Este sistema é um almoxarifado comum com todas as principais funções de um controle de estoque.
+Sistema em Python para controle de estoque, gerenciamento de usuários e fluxo de aprovação de solicitações de compra.
+
+## Estrutura do Projeto
+
+* `produtos/` — Cadastro e controle de saldo de itens do estoque.
+* `usuarios/` — Gerenciamento de usuários, perfis e permissões de acesso.
+* `solicitacoes/` — Controle do ciclo de vida das solicitações de compra (abertura, aprovação, andamento e cancelamento).
+* `testes/` — Scripts automatizados de validação das regras de negócio.
+
+## Como rodar os testes
+
+No terminal, na pasta raiz do projeto, execute:
+
+```bash
+python -m testes.teste_solicitacao
